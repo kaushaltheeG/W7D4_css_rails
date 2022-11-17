@@ -1,0 +1,41 @@
+/* PHASE 1: Header */
+
+body {
+    font-weight: normal;
+    font-family: 'Space Mono', monospace;
+    size: 50px;
+}
+
+.header {
+    background-color: red;
+    /* text-align: center; */
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.header-nav {
+    margin: 0 auto;
+    width: 900px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    /* float: left; */
+    border-right: 1px solid white;
+    font-weight: 700;
+}
+
+.header-list {
+    /* float: right; */
+    display: flex;
+    
+}
+
+.header-list > li {
+    /* float: right; */
+    border-left: 1px solid #ccc;
+}
+
